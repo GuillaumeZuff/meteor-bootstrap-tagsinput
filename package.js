@@ -5,7 +5,7 @@ Package.describe({
 Package.on_use(function (api) {
     // dependecies required by package
     api.use('jquery', 'client'); 
-    api.use('bootstrap-3', 'client');
+    api.use('bootstrap3-less', 'client');
     
     // adding the required file for package
     api.add_files('lib/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js', 'client');
